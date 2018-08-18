@@ -28,6 +28,33 @@ public class Course {
 		this.grade = 0;
 	}
 	
+	public boolean addAssignment(String category, double possiblePoints, double earnedPoints) {
+		
+	}
 	
+	private double calculateScore() {
+		double result = 0;
+		return result;
+	}
+	
+	/**
+	 * A private class which represents a single piece of Graded Work which the student wants to record
+	 * e.g. A test, quiz, paper, homework, etc.
+	 * @author kevin
+	 *
+	 */
+	private class GradedWork {
+		
+		private String category;
+		private double possiblePoints;
+		private double earnedPoints;
+		
+		public GradedWork(String category, double possiblePoints, double earnedPoints) {
+			this.category = category;
+			this.possiblePoints = possiblePoints;
+			this.earnedPoints = earnedPoints;
+		}
+		
+	}
 	
 }

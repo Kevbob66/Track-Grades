@@ -1,8 +1,5 @@
 package me.preliminaryOutline;
-import java.util.HashMap;
 import java.util.Scanner;
-import java.util.TreeMap;
-import java.util.TreeSet;
 
 /**
  * The first prototype for the Tracking Grades Program - console only
@@ -18,5 +15,7 @@ public class ConsoleProtoype {
 		
 		
 	}
+	
+	
 	
 }
